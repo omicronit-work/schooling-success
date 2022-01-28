@@ -1,0 +1,498 @@
+/*		Tablet Layout: 768px.   */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header-wrap #nav-bar {
+    margin-top: 2.5rem;
+  }
+  .custom-nav ul li {
+    text-transform: uppercase;
+    padding: 0.5rem 1.5rem;
+  }
+  /* END of #nav-bar */
+  .attainment-wrap {
+    padding: 0;
+  }
+  .attainment-wrap .attainment-text {
+    padding-top: 7rem;
+  }
+  .attainment-wrap .attainment-text .custom-btn {
+    padding: 1rem 1.5rem;
+  }
+  .attainment-info .attainment-info-text h2 {
+    margin: -15rem 0 0;
+  }
+
+  .attainment-info .attainment-info-text .some-text {
+    max-width: 80rem;
+    margin: 2rem 2rem;
+  }
+  .attainment-info .attainment-info-text p {
+    margin: 0 5rem 0 0;
+  }
+  /* END of .attainment-info */
+  .schooling-success-wrap {
+    margin-top: 5rem;
+  }
+  .schooling-success-wrap .schooling-success-content {
+    padding: 7rem 5rem 4rem 5rem;
+  }
+  .schooling-success-wrap .schooling-success-content h4 {
+    font-size: 1.6rem;
+  }
+  .schooling-success-wrap .schooling-success-content h4::before {
+    top: 30%;
+  }
+  .schooling-success-wrap .schooling-success-content a {
+    margin: 4rem 3rem;
+  }
+  /* END of  .schooling-success-wrap */
+  .what-school-wrap .what-school-content h2 {
+    padding: 5rem 0 0 10rem;
+  }
+  .holding-wrap {
+    margin: 10rem 0 6rem;
+  }
+  .holding-wrap .holding-heading img {
+    margin-left: 0;
+  }
+  .holding-wrap .holding-heading .holding-heading-content {
+    left: 15%;
+  }
+  .holding-wrap .holding-heading .holding-heading-content h2 {
+    margin: 0 8rem 0 2rem;
+  }
+  .holding-wrap .holding-heading .holding-heading-content p {
+    margin: 1.5rem 8rem 0 0;
+  }
+  /* END of .what-school-wrap */
+  .holding-wrap .holding-content {
+    margin-top: 8rem;
+  }
+  /* END of .holding-wrap */
+  .testimonial-wrap {
+    padding-top: 10rem;
+  }
+  .testimonial-wrap .testimonial-heading p {
+    margin-bottom: 5.5rem;
+  }
+  .testimonial-wrap .gols-item {
+    -ms-flex: 0 0 33.33%;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+  .testimonial-wrap .inner-wrap {
+    margin: 2rem auto;
+    padding: 1rem 1rem;
+  }
+  .testimonial-wrap .testimonial-icon-wrap {
+    padding-bottom: 8rem;
+  }
+  /* END of .testimonial-wrap */
+  .founder-wrap {
+    padding: 8rem 0;
+  }
+  .book-wrap {
+    padding: 7rem 0;
+  }
+  .footer .footer-img {
+    /* margin: 0 auto; */
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  /* Book seminars start */
+  .sec-wrap .sec-content {
+    margin: 5.5rem 0 0;
+  }
+  .sec-wrap .sec-content p {
+    margin-bottom: 0;
+  }
+  /* END of .sec-wrap */
+  .pricing-wrap .pricing-heading p {
+    margin-bottom: 4rem;
+  }
+  .pricing-wrap .pricing-inner .little-details {
+    margin-top: 10rem;
+  }
+  .pricing-wrap .pricing-icon {
+    padding: 0;
+  }
+  .pricing-wrap .pricing-outer h2 {
+    margin: 8rem;
+  }
+  /* END of .pricing-wrap */
+  .booking-form h2 {
+    padding: 6.5rem 0 4rem 0;
+  }
+  .booking-form .booking-form-item {
+    padding: 4rem;
+  }
+  .booking-form .booking-form-item .btn {
+    margin-top: 4rem;
+    padding: 1rem 8rem;
+    font-size: 1.8rem;
+  }
+  .booking-form p {
+    margin-bottom: 7rem;
+  }
+  /* END of .booking-form*/
+  .energy-wrap .energy-header {
+    margin: 6rem 0;
+  }
+  .energy-wrap .energy-content {
+    padding-bottom: 8rem;
+  }
+  .button-energy {
+    padding: 7rem;
+  }
+}
+/*	END of	Tablet Layout: 768px.   */
+
+/*		Mobile Layout: 767px.    */
+
+@media only screen and (max-width: 767px) {
+  .main-bg {
+    background: url(../img/blue-gradient_bg.png) no-repeat 100% 55%;
+  }
+  .custom-nav .nav-img {
+    width: 25rem;
+    height: auto;
+  }
+  .header-wrap #nav-bar {
+    margin-top: 1rem;
+  }
+  /* END of #nav-bar */
+  .sec-wrap .sec-content .hide {
+    display: none;
+  }
+  .sec-wrap .sec-content .show {
+    display: block;
+    font-size: 1.4rem;
+  }
+  .sec-wrap .sec-content h4 {
+    font-size: 2rem;
+  }
+  .attainment-wrap {
+    padding: 0;
+  }
+  .attainment-wrap .attainment-text h2 {
+    margin-bottom: 4.5rem;
+  }
+  .attainment-info .attainment-info-text {
+    text-align: center;
+    margin: 1rem;
+  }
+  .attainment-info .attainment-info-text h2 {
+    margin-left: 0;
+  }
+  .attainment-info .attainment-info-text .some-text {
+    margin-left: 0;
+    width: 100%;
+  }
+  .attainment-info .attainment-info-text p {
+    font-size: 1.8rem;
+    width: 100%;
+    display: inline-block;
+    margin-left: 0;
+  }
+
+  .attainment-info-img img {
+    display: inline-block;
+    margin-right: 15rem;
+  }
+  /* END of .attainment-info */
+  .schooling-success-wrap {
+    margin-top: 5rem;
+  }
+
+  .testimonial-wrap .inner-wrap {
+    margin: 3rem auto;
+  }
+  .holding-wrap {
+    margin: 3.5rem 1rem;
+  }
+  .holding-wrap .holding-heading img {
+    margin: 0;
+    display: block;
+    float: none;
+    margin-bottom: 2rem;
+  }
+  .holding-wrap .holding-heading .holding-heading-content {
+    position: relative;
+    top: 100%;
+    left: 0;
+    max-width: 68rem;
+  }
+  .holding-wrap .holding-heading .holding-heading-content h2 {
+    margin: 0 0 0 0;
+    display: block;
+    top: 100%;
+  }
+  .holding-wrap .holding-heading .holding-heading-content p {
+    margin: 0;
+  }
+  .holding-wrap .holding-content-bg {
+    background: none;
+    width: 100%;
+    margin-top: 5rem;
+    max-width: 100%;
+  }
+  .holding-wrap .holding-content {
+    border: none;
+    padding: 0;
+    margin-top: 0;
+  }
+  .holding-wrap .holding-content ul {
+    padding: 0;
+  }
+  .holding-wrap .holding-content ul li {
+    margin-right: 0;
+  }
+  .holding-wrap .holding-content ul li p {
+    margin-left: 3.5rem;
+  }
+  /* END of .holding-wrap */
+  .testimonial-wrap .inner-wrap {
+    padding: 2rem 2rem;
+  }
+  .testimonial-wrap .gols-item {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .testimonial-wrap .gols-item p img {
+    max-width: 8rem;
+  }
+  /* Start book seminars */
+  .sec-wrap .sec-content {
+    margin: 4.5rem 0 0;
+  }
+  .sec-wrap .sec-content p {
+    margin-bottom: 0;
+  }
+  .pricing-wrap .pricing-heading h2 {
+    font-size: 2rem;
+  }
+  .pricing-wrap .pricing-heading p {
+    margin-bottom: 3rem;
+  }
+  .pricing-wrap .pricing-bg {
+    background: none;
+  }
+  .pricing-wrap .pricing-table {
+    box-shadow: 0 1rem 2rem rgba(18, 44, 51, 0.5);
+  }
+  .pricing-wrap .pricing-outer h2 {
+    margin: 0;
+  }
+  .pricing-wrap .pricing-icon {
+    padding: 2rem 0;
+  }
+  .pricing-wrap .table-details {
+    margin-top: 3rem;
+  }
+  /* END of .pricing-wrap */
+  .booking-form h2 {
+    padding: 4.5rem 0 2rem 0;
+    font-size: 2rem;
+  }
+  .booking-form .booking-form-bg {
+    background: none;
+    padding: 2rem;
+  }
+  .booking-form .booking-form-bg {
+    padding: 2rem;
+  }
+  .booking-form .booking-form-item {
+    padding: 2rem;
+  }
+  .booking-form .booking-form-item label {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .booking-form .booking-form-item .btn {
+    margin-top: 1rem;
+  }
+  .booking-form .booking-form-item .btn {
+    padding: 1rem 4rem;
+    font-size: 1.8rem;
+  }
+  .booking-form h3 {
+    margin: 5rem 0 3rem 0;
+  }
+  .booking-form p {
+    margin-bottom: 5rem;
+  }
+  /* END of .booking-form */
+  .energy-wrap .energy-header {
+    margin: 3rem 0;
+  }
+  .energy-wrap .energy-header h2 {
+    font-size: 2.2rem;
+  }
+  .energy-wrap .energy-header h4 {
+    font-size: 1.8rem;
+  }
+  .energy-wrap .energy-content {
+    padding-bottom: 6rem;
+  }
+  .energy-footer-wrap {
+    background: #eeeeee;
+    padding: 6rem 2rem;
+  }
+  .button-energy {
+    padding: 3rem;
+  }
+  .button-energy .btn {
+    padding: 1rem 8rem;
+    font-size: 1.4rem;
+  }
+}
+
+/*	END of	Mobile Layout: 767px.    */
+/*		Mobile Layout: 480px.    */
+@media only screen and (max-width: 640px) {
+  .testimonial-wrap .inner-wrap h3 {
+    font-size: 1rem;
+  }
+}
+/*		Wide Mobile Layout: 480px.    */
+
+@media only screen and (max-width: 480px) {
+  .custom-nav .nav-img {
+    width: 20rem;
+    height: auto;
+  }
+  /* END of #nav-bar */
+  .attainment-wrap {
+    text-align: center;
+  }
+  .attainment-wrap .attainment-text {
+    padding-top: 1rem;
+  }
+  .attainment-wrap .attainment-text .mt-5 {
+    margin-top: 1rem !important;
+  }
+  .attainment-info .attainment-info-text {
+    display: block;
+  }
+  .attainment-info .attainment-info-text .attainment-info-img img {
+    margin: 2rem auto 3rem;
+  }
+  .attainment-info .attainment-info-text h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #122c33;
+    font-weight: 700;
+    margin-top: -20rem;
+    margin-bottom: 2rem;
+  }
+  .attainment-info .attainment-info-text p {
+    margin: 0 0;
+    max-width: 100%;
+  }
+  /* END of .attainment-wrap */
+  .schooling-success-wrap .schooling-success-content-bg {
+    background-image: none;
+    padding: 0;
+    border-radius: 0;
+  }
+  .schooling-success-wrap .schooling-success-content {
+    padding: 3rem;
+  }
+  .schooling-success-wrap .schooling-success-content h2 {
+    margin-bottom: 2rem;
+  }
+  .schooling-success-wrap .schooling-success-content span {
+    margin-bottom: 1rem;
+  }
+  .schooling-success-wrap .schooling-success-content h4 {
+    margin-bottom: 2rem;
+  }
+  .schooling-success-wrap .schooling-success-content h4::before {
+    top: 38%;
+  }
+  .schooling-success-wrap .schooling-success-content p {
+    padding-top: 2.5rem;
+  }
+  .schooling-success-wrap .schooling-success-content a {
+    margin: 5rem 1rem;
+  }
+  .what-school-wrap .what-school-text {
+    max-width: 95%;
+    padding: 1.5rem;
+    margin-top: 2rem;
+  }
+  .what-school-wrap .what-school-content h2 {
+    padding: 1rem;
+  }
+  .what-school-wrap .slick-dots {
+    bottom: 4rem;
+    left: 0;
+  }
+  /* END of   .what-school-wrap */
+  .holding-wrap .holding-heading img {
+    margin: 0;
+    display: block;
+    float: none;
+    margin-bottom: 2rem;
+  }
+  .holding-wrap .holding-heading .holding-heading-content {
+    position: relative;
+    top: 100%;
+    left: 0;
+    max-width: 68rem;
+  }
+  .holding-wrap .holding-heading .holding-heading-content h2 {
+    margin: 0 0 0 0;
+    display: block;
+    top: 100%;
+  }
+  .holding-wrap .holding-heading .holding-heading-content p {
+    margin: 1rem 0;
+  }
+  .holding-wrap .holding-content-bg {
+    background: none;
+    width: 100%;
+    margin-top: 5rem;
+    max-width: 100%;
+    padding: 0;
+  }
+  .holding-wrap .holding-content h2 {
+    margin: 0;
+  }
+  /* END of .holding-wrap */
+  .testimonial-wrap {
+    padding-top: 7rem;
+  }
+  .testimonial-wrap .testimonial-heading p {
+    margin-bottom: 5rem;
+  }
+  .testimonial-wrap .inner-wrap h3 {
+    font-size: 1.4rem;
+  }
+  .testimonial-wrap .testimonial-icon-wrap {
+    padding-bottom: 7rem;
+  }
+  /* END of testimonial-wrap */
+  .book-wrap .book-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .founder-wrap {
+    padding: 4.5rem 0;
+  }
+  .founder-wrap img {
+    margin-bottom: 2rem;
+  }
+  /* END of founder-wrap */
+  .book-wrap {
+    padding: 6rem 0;
+  }
+  /* END of book-wrap */
+
+  .footer .footer-nav ul li {
+    margin-top: 2.5rem;
+    padding: 0 0.5rem;
+  }
+  /* END of footer */
+}

@@ -31,7 +31,11 @@
               "src/assets/css/responsive.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/slick.min.js",
+              "src/assets/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {
